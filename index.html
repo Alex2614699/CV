@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ashutosh Adhikari | Unity Game Developer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="logo">AA<span class="dot">.</span></div>
+    <ul class="nav-links">
+      <li><a href="#" class="nav-btn active" onclick="showPage('home')">Home</a></li>
+      <li><a href="#" class="nav-btn" onclick="showPage('about')">About</a></li>
+      <li><a href="#" class="nav-btn" onclick="showPage('projects')">Projects</a></li>
+      <li><a href="#" class="nav-btn" onclick="showPage('gallery')">Gallery</a></li>
+    </ul>
+  </nav>
+
+  <main class="content-container">
+
+    <!-- HOME PAGE -->
+    <section id="home" class="page active-page">
+      <div class="hero">
+        <span class="badge">Unity & C# Developer</span>
+        <h1>Hey there! I'm <span class="neon-text-gradient">Ashutosh Adhikari</span></h1>
+        <p class="tagline">1st Year Software Engineering Student @ PCPS College</p>
+        <p class="intro-text">
+          As a game creator with years of involvement in the field, I focus on developing captivating and interactive experiences for gamers across platforms. My skills center around gameplay mechanics, level construction, and designing experiences that prioritize player engagement.
+        </p>
+        <div class="cta-buttons">
+          <button class="btn primary-neon" onclick="showPage('projects')">View My Work</button>
+          <button class="btn secondary-glass" onclick="showPage('about')">More About Me</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT PAGE -->
+    <section id="about" class="page">
+      <div class="about-container">
+        <h2 class="neon-heading">About <span class="neon-text-gradient">Me</span></h2>
+        <p>
+          I'm 19 years old and I love diving into the world of game development using Unity and C#. Over the years, I've created several game projects and truly enjoy crafting exciting gameplay features that keep players hooked! I am constantly seeking to broaden my skills and enhance my expertise in this field. Currently, I am on the lookout for opportunities to immerse myself in the gaming industry through a game design internship.
+        </p>
+        <p>
+          In 2021, while still in school, I started my journey in Computer Science and Software Development. During that time, I delved into game design and Unity, working on independent projects to refine my programming and design abilities. Currently starting my first year in Software Engineering at PCPS College, I constantly seek out new concepts to produce creative projects that engage audiences.
+        </p>
+        
+        <div class="skills-block">
+          <h3>Core Expertise</h3>
+          <div class="tags">
+            <span class="tag">Unity 2D/3D</span>
+            <span class="tag">C# Scripting</span>
+            <span class="tag">Gameplay Mechanics</span>
+            <span class="tag">Level Design</span>
+            <span class="tag">Mobile Optimization</span>
+            <span class="tag">Bug Fixing & Debugging</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS PAGE -->
+<section id="projects" class="page">
+  <h2 class="neon-heading">Personal <span class="neon-text-gradient">Projects</span></h2>
+  <p class="section-desc">Here are some of the game projects I've built and published recently.</p>
+  
+  <div class="projects-grid">
+    <!-- Project 1: Sunnyland Secrets -->
+    <div class="project-card">
+      <div class="project-image" style="background-image: url('assets/Sunnyland.png');"></div>
+      <div class="project-info">
+        <h3>Sunnyland Secrets</h3>
+        <p>A 2D platformer featuring custom level construction and interactive secret mechanics.</p>
+        <a href="https://itch.io/search?q=Sunnyland+Secrets+Major+Frazier" target="_blank" class="project-link">Play Sunnyland Secrets &rarr;</a>
+      </div>
+    </div>
+
+    <!-- Project 2: Yoshie Nextbot -->
+    <div class="project-card">
+      <div class="project-image" style="background-image: url('assets/Yoshie.png');"></div>
+      <div class="project-info">
+        <h3>Yoshie Nextbot</h3>
+        <p>Mobile survival game with high-stakes gameplay mechanics and 20k+ downloads on the Google Play Store.</p>
+        <a href="https://play.google.com/store/search?q=Yoshie+Nextbot&c=apps" target="_blank" class="project-link">View on Google Play &rarr;</a>
+      </div>
+    </div>
+
+    <!-- Project 3: Flow Train -->
+    <div class="project-card">
+      <div class="project-image" style="background-image: url('assets/FlowTrain.png');"></div>
+      <div class="project-info">
+        <h3>Flow Train</h3>
+        <p>An engaging puzzle game centered around fluid train routing mechanics and level progression.</p>
+        <a href="https://play.google.com/store/search?q=FlowTrain&c=apps" target="_blank" class="project-link">View on Google Play &rarr;</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- GALLERY PAGE -->
+    <section id="gallery" class="page">
+      <h2 class="neon-heading">Visual <span class="neon-text-gradient">Gallery</span></h2>
+      <p class="section-desc">A look at projects I'm currently working on or have explored recently.</p>
+
+      <div class="gallery-grid">
+        <div class="gallery-card">
+          <div class="gallery-image" style="background-image: url('assets/example.png');"></div>
+        </div>
+        <div class="gallery-card">
+          <div class="gallery-image" style="background-image: url('assets/example1.png');"></div>
+        </div>
+        <div class="gallery-card">
+          <div class="gallery-image" style="background-image: url('assets/example2.png');"></div>
+        </div>
+        <div class="gallery-card">
+          <div class="gallery-image" style="background-image: url('assets/example3.png');"></div>
+        </div>
+        <div class="gallery-card">
+          <div class="gallery-image" style="background-image: url('assets/example4.png');"></div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
